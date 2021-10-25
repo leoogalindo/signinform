@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h1>Create Account</h1>
+
+            <div class="social-media">
+                <div class="icon">
+                    <i data-feather="facebook"></i>
+                </div>
+                <div class="icon">
+                    <i data-feather="twitter"></i>
+                </div>
+                <div class="icon">
+                    <i data-feather="instagram"></i>
+                </div>
+            </div>
+            
+            <p>or use your email for registration:</p>
+
+            <div class="input-container">
+                <input type="text" placeholder="Name">
+                       
+                <input type="email" placeholder="Email">
+           
+                <input type="password" placeholder="Password">
+            </div>
+
+            <div class="options-container">
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">I agree to the <span>Terms</span> and <span>Privacy Policy</span></label>
+            </div>
+
+            <div class="submit-container">
+                <input type="submit" value="Sign Up"></input>
+                <input type="submit" value="Sign In">
+            </div>
+            
+
+        </form>
+
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+    
+</body>
+</html>
