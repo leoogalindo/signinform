@@ -10,6 +10,10 @@ body{
     box-sizing: border-box;
 }
 
+:root{
+    accent-color:#FC1919;
+}
+
 .form-container{
     margin: 100px auto;
     width: 450px;
